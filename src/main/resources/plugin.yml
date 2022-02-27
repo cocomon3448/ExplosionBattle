@@ -1,0 +1,10 @@
+name: ExplosionBattle
+version: '${project.version}'
+main: com.github.cocomon3448.explosionbattle.ExplosionBattle
+api-version: 1.18
+authors: [ rammer3448, _torch_light_ ]
+description: ExplosionBattle
+
+commands:
+  start:
+    description: "starts game"
