@@ -20,8 +20,6 @@ public class OnConsumeTotem implements Listener {
             for(PotionEffect pE:p.getActivePotionEffects()) {
                 p.removePotionEffect(pE.getType());
             }
-            p.setHealth(20);
-            p.setFoodLevel(20);
             p.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, Integer.MAX_VALUE, 1, true, true,true));
         }
     }

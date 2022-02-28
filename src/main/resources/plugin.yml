@@ -8,3 +8,7 @@ description: ExplosionBattle
 commands:
   start:
     description: "starts game"
+  stop:
+    description: "stops game"
+  test:
+    description: "tests map reset works"
